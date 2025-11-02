@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "The Role Of Sewage Treatment Plants",
+    "category": "Water Treatment",
+    "date": "2024-01-15",
+    "image": "stp",
+    "excerpt": "Sewage Treatment Plants play a crucial role in maintaining environmental sustainability by treating wastewater from residential and commercial sources. Learn how modern STP technology is revolutionizing water management.",
+    "content": "Sewage Treatment Plants (STPs) are essential infrastructure that helps protect our environment by treating wastewater before it's released back into nature. Modern STPs use advanced biological and chemical processes to remove contaminants, ensuring water safety and environmental compliance."
+  },
+  {
+    "id": 2,
+    "title": "Why Effluent Treatment Plant is important for Hospitals?",
+    "category": "Healthcare",
+    "date": "2024-02-10",
+    "image": "etp",
+    "excerpt": "Hospitals generate significant amounts of wastewater that require specialized treatment. Discover why ETPs are critical for healthcare facilities and how they help maintain hygiene and environmental standards.",
+    "content": "Hospital wastewater contains various contaminants including pharmaceuticals, pathogens, and chemicals that require specialized treatment. Effluent Treatment Plants in hospitals ensure that all wastewater is properly treated before disposal, protecting public health and the environment."
+  },
+  {
+    "id": 3,
+    "title": "What is Zero Liquid Discharge ZLD water treatment Plant?",
+    "category": "Technology",
+    "date": "2024-03-05",
+    "image": "zld",
+    "excerpt": "Zero Liquid Discharge (ZLD) systems represent the pinnacle of water treatment technology, ensuring complete water recovery and zero waste. Explore how ZLD systems work and their benefits for industries.",
+    "content": "Zero Liquid Discharge (ZLD) is a water treatment process that completely eliminates liquid waste discharge. Through advanced filtration, evaporation, and crystallization techniques, ZLD systems recover 100% of water and convert waste into solid form for disposal or reuse."
+  },
+  {
+    "id": 4,
+    "title": "RO Plant Maintenance: Best Practices for Longevity",
+    "category": "Maintenance",
+    "date": "2024-03-20",
+    "image": "ro",
+    "excerpt": "Proper maintenance is key to extending the life of your Reverse Osmosis plant. Learn essential maintenance practices that can help you maximize efficiency and reduce operational costs.",
+    "content": "Regular maintenance of RO plants includes membrane cleaning, filter replacement, and system monitoring. Following best practices ensures optimal performance, extends membrane life, and maintains water quality standards."
+  },
+  {
+    "id": 5,
+    "title": "Water Treatment Solutions for Pharmaceutical Industry",
+    "category": "Industry",
+    "date": "2024-04-01",
+    "image": "pharma",
+    "excerpt": "The pharmaceutical industry requires ultra-pure water for manufacturing processes. Discover specialized water treatment solutions that meet strict pharmaceutical standards and compliance requirements.",
+    "content": "Pharmaceutical manufacturing demands the highest water purity standards. Our specialized treatment systems including DM plants, RO systems, and mixed bed filters ensure water meets USP, EP, and other regulatory standards for pharmaceutical use."
+  },
+  {
+    "id": 6,
+    "title": "Sustainable Water Management in Textile Industry",
+    "category": "Sustainability",
+    "date": "2024-04-15",
+    "image": "textile",
+    "excerpt": "The textile industry is one of the largest water consumers. Learn how advanced wastewater treatment solutions can help textile manufacturers reduce water consumption, recycle process water, and achieve sustainability goals.",
+    "content": "Textile manufacturing processes consume vast amounts of water and generate heavily contaminated wastewater. Advanced ETP and ZLD systems enable water recycling, reduce fresh water consumption, and help textile companies achieve their sustainability targets."
+  }
+]
+

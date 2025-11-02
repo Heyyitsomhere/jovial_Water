@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydroflux Engineering - Water Treatment Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-left">
+                <a href="mailto:support@hydroflux.co.in">
+                    <i class="fas fa-envelope"></i> support@hydroflux.co.in
+                </a>
+            </div>
+            <div class="top-bar-right">
+                <a href="tel:+918851165175">
+                    <i class="fas fa-phone"></i> +91 8851165175
+                </a>
+                <a href="tel:01144463328">
+                    <i class="fas fa-phone-alt"></i> 011-44463328
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-tint"></i>
+                <span>Hydroflux Engineering</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#about">About Us <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about">Company Overview</a></li>
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#vision">Our Vision</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#products">Our Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu" id="products-dropdown">
+                        <!-- Loaded dynamically -->
+                    </ul>
+                </li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#news">News Room</a></li>
+                <li><a href="#careers">Career</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Home -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Integrated Waste Water Solution</h1>
+                <p class="hero-tagline">Reduce, Reuse, Recycle...</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#products" class="btn btn-secondary">Our Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid" id="stats-grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Hydroflux</h2>
+            <p class="section-subtitle" id="company-overview"></p>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="vision-section">
+        <div class="container">
+            <div class="vision-content">
+                <div class="vision-header">
+                    <span class="inception">Incepted in <span id="founded-year"></span></span>
+                    <h2 class="section-title">Our Vision</h2>
+                </div>
+                <p class="vision-text" id="vision-text"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission-section">
+        <div class="container">
+            <h2 class="section-title">Our Mission</h2>
+            <p class="mission-text" id="mission-text"></p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Hydroflux Products</h2>
+            <div class="products-grid" id="products-grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid" id="services-grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Our Client's Testimonies</h2>
+            <div class="testimonials-grid" id="testimonials-grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- News Room Section -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <h2 class="section-title">Latest News About Water Treatment Industry</h2>
+            <div class="news-grid" id="news-grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="careers" class="career-section">
+        <div class="container">
+            <h2 class="section-title">Career Opportunities</h2>
+            <div class="career-content">
+                <p>Join our team of experts in revolutionizing water treatment solutions. We offer exciting career opportunities for talented individuals passionate about sustainability and innovation.</p>
+                <a href="#contact" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Delhi Office</h4>
+                        <p id="address-delhi"></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Mumbai Office</h4>
+                        <p id="address-mumbai"></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p id="phone-number"></p>
+                        <p id="phone-secondary"></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p id="email-address"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-tint"></i> Hydroflux Engineering</h4>
+                    <p id="footer-tagline"></p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#products">Products</a>
+                    <a href="#services">Services</a>
+                    <a href="#news">News Room</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Products</h4>
+                    <a href="#products">Sewage Treatment Plant</a>
+                    <a href="#products">Effluent Treatment Plant</a>
+                    <a href="#products">Ultra Filtration System</a>
+                    <a href="#products">Zero Liquid Discharge</a>
+                    <a href="#products">Reverse Osmosis</a>
+                    <a href="#products">De Mineralization Plant</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> <span id="footer-phone"></span></p>
+                    <p><i class="fas fa-envelope"></i> <span id="footer-email"></span></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hydroflux Engineering Pvt Ltd. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup Form Modal -->
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2>Request Expert Call Back</h2>
+            <p>We specialize in the manufacturing and supply of top-quality Effluent Treatment Plants (ETP), Sewage Treatment Plants (STP), Demineralization (DM) plants, Reverse Osmosis (RO) plants, and more.</p>
+            <form onsubmit="handlePopupSubmit(event)">
+                <div class="form-group">
+                    <label for="popup-name">Name *</label>
+                    <input type="text" id="popup-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="popup-phone">Phone *</label>
+                    <input type="tel" id="popup-phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="popup-email">Email *</label>
+                    <input type="email" id="popup-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="popup-company">Company</label>
+                    <input type="text" id="popup-company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="popup-message">Requirement</label>
+                    <textarea id="popup-message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Submit Request
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

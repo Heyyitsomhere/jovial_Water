@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Operations and Maintenance",
+    "icon": "fa-cogs",
+    "description": "Comprehensive operations and maintenance services to ensure optimal performance of your water treatment plants. Our expert team provides regular monitoring, troubleshooting, and preventive maintenance."
+  },
+  {
+    "id": 2,
+    "name": "Annual Maintenance Contract",
+    "icon": "fa-calendar-check",
+    "description": "Secure your plant's efficiency with our comprehensive Annual Maintenance Contracts. We offer cost-effective packages including regular servicing, parts replacement, and 24/7 technical support."
+  },
+  {
+    "id": 3,
+    "name": "Waste Water Consultancy",
+    "icon": "fa-user-tie",
+    "description": "Expert consultancy services for wastewater treatment solutions. Our experienced consultants help you design, implement, and optimize treatment systems tailored to your specific needs and compliance requirements."
+  },
+  {
+    "id": 4,
+    "name": "Spares, Consumables & Chemicals",
+    "icon": "fa-boxes",
+    "description": "One-stop solution for all your plant maintenance needs. We supply genuine spares, high-quality consumables, and specialized chemicals to keep your treatment plants running at peak efficiency."
+  },
+  {
+    "id": 5,
+    "name": "Online Monitoring System",
+    "icon": "fa-chart-line",
+    "description": "Advanced IoT-based online monitoring systems for real-time tracking of your water treatment plant's performance. Get instant alerts, detailed analytics, and remote access to your plant data."
+  }
+]
+

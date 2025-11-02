@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Sewage Treatment Plants",
+    "shortName": "STP",
+    "icon": "fa-recycle",
+    "description": "Sewage Treatment Plants (STPs) play a vital role in managing wastewater from various sources and transforming it into clean, reusable water. Our advanced STP systems ensure efficient treatment and compliance with environmental standards."
+  },
+  {
+    "id": 2,
+    "name": "Effluent Treatment Plants",
+    "shortName": "ETP",
+    "icon": "fa-industry",
+    "description": "Our ETP systems are meticulously designed to effectively treat industrial effluents, ensuring compliance with regulatory standards while minimizing environmental impact. We provide customized solutions for various industries."
+  },
+  {
+    "id": 3,
+    "name": "Ultra Filtration System",
+    "shortName": "UF",
+    "icon": "fa-filter",
+    "description": "Our UFS systems utilize advanced membrane technology to effectively remove suspended solids, bacteria, viruses, and other contaminants, delivering high-quality treated water for various applications."
+  },
+  {
+    "id": 4,
+    "name": "Zero Liquid Discharge",
+    "shortName": "ZLD",
+    "icon": "fa-water",
+    "description": "Our ZLD systems are designed to effectively treat industrial waste water and eliminate liquid discharge, ensuring complete water recovery and zero environmental impact. Perfect for industries with strict environmental regulations."
+  },
+  {
+    "id": 5,
+    "name": "Reverse Osmosis Plant",
+    "shortName": "RO",
+    "icon": "fa-tint",
+    "description": "Our RO plants are designed to remove impurities, contaminants, and dissolved solids from water, producing high-quality purified water suitable for drinking, industrial, and commercial applications."
+  },
+  {
+    "id": 6,
+    "name": "De Mineralization Plant",
+    "shortName": "DM",
+    "icon": "fa-flask",
+    "description": "Our DM plants are designed to remove dissolved salts and minerals from water, producing high-quality demineralized water essential for industries requiring ultra-pure water for their processes."
+  },
+  {
+    "id": 7,
+    "name": "Mixed Bed Plant",
+    "shortName": "Mixed Bed",
+    "icon": "fa-layer-group",
+    "description": "Our Mixed Bed Plants combine the principles of ion exchange and filtration to achieve the highest levels of water purity, producing ultra-pure water with extremely low conductivity levels."
+  },
+  {
+    "id": 8,
+    "name": "Water Softener Plant",
+    "shortName": "Water Softener",
+    "icon": "fa-tint-slash",
+    "description": "Our Water Softener Plants utilize ion exchange technology to effectively remove calcium, magnesium, and other hardness minerals from water, preventing scale formation and extending equipment life."
+  }
+]
+

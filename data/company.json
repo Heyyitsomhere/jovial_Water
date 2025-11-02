@@ -1,0 +1,33 @@
+{
+  "name": "Hydroflux Engineering Pvt Ltd",
+  "founded": "2016",
+  "tagline": "Integrated Waste Water Solution",
+  "vision": "At Hydroflux Engineering Pvt Ltd, our vision is to be the leading provider of innovative and sustainable water treatment solutions globally. We aspire to be the preferred choice for clients seeking reliable and efficient ETP, STP, DM, WTP and RO plants, delivering exceptional value through our commitment to quality, integrity, and customer satisfaction.",
+  "mission": "At Hydroflux Engineering Pvt Ltd, our mission is to revolutionize the water treatment industry by providing innovative, reliable, and sustainable solutions that exceed our clients' expectations. We are dedicated to leveraging our expertise and experience to design, manufacture, and deliver ETP, STP, DM, and RO plants that optimize resource utilization, minimize environmental impact, and ensure compliance with regulatory standards. Through a relentless pursuit of excellence, continuous innovation, and a customer-centric approach, we strive to empower industries and communities worldwide to achieve their water treatment goals efficiently, responsibly, and cost-effectively. At Hydroflux Engineering, we are committed to making a positive difference in the world by safeguarding water quality and promoting a greener, more sustainable future for all.",
+  "overview": "We are an Integrated waste water solutions provider across India. Welcome to Hydroflux Engineering Pvt Ltd, a trusted name in the realm of water and wastewater treatment solutions. With a high reputation for excellence, we specialize in the manufacturing and supply of top-quality Effluent Treatment Plants (ETP), Sewage Treatment Plants (STP), Demineralization (DM) plants, Reverse Osmosis (RO) plants, Water Softeners and Water Treatment Plants (WTP). We have been serving industries such as Food and Beverage, Pharmaceutical, Automobile, Chemical, Paint and coating, Education, Hospitality, Oil and Gas, Textile, Pulp and paper and many more.",
+  "contact": {
+    "email": "support@hydroflux.co.in",
+    "phone": "+91 8851165175",
+    "phoneSecondary": "011-44463328",
+    "addressDelhi": "Plot no.3 (3rd floor), 100 ft Road, Opposite Union Bank Ghitorni, New Delhi India. Pin:110030",
+    "addressMumbai": "Haware Infotech park, Office no- 1106, 11th floor. Near by Vashi railway Station, Vashi, Navi Mumbai-400703"
+  },
+  "industries": [
+    "Infrastructure & Developer",
+    "Chemical and Fertilisers",
+    "Pulp and Paper",
+    "Automobiles",
+    "Commercial and Institutional",
+    "Food and Beverages",
+    "Pharmaceuticals",
+    "Hospital",
+    "Hospitality",
+    "Textile",
+    "Cement",
+    "Leather",
+    "Sugar Mills",
+    "Paint Industry",
+    "Rice Mills"
+  ]
+}
+
