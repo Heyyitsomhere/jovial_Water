@@ -209,6 +209,24 @@ document.addEventListener('click', (e) => {
 // Popup form handler
 function handlePopupSubmit(event) {
     event.preventDefault();
+    
+    // Get form data
+    const formData = {
+        name: document.getElementById('popup-name').value,
+        phone: document.getElementById('popup-phone').value,
+        email: document.getElementById('popup-email').value,
+        company: document.getElementById('popup-company').value,
+        message: document.getElementById('popup-message').value,
+        timestamp: new Date().toISOString()
+    };
+    
+    // Console print
+    console.log('=== Form Submission ===');
+    console.log('Form Type: Popup Form (Expert Call Back Request)');
+    console.log('Submitted Data:', formData);
+    console.log('Formatted Data:', JSON.stringify(formData, null, 2));
+    console.log('======================');
+    
     alert('Thank you for your request! Our expert will call you back soon.');
     event.target.reset();
     closeModal();
