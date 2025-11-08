@@ -468,7 +468,7 @@ function sendWhatsAppMessage(formData) {
 
 // Format WhatsApp message
 function formatWhatsAppMessage(formData) {
-    let message = `Hello Hydroflux Engineering!\n\n`;
+    let message = `Hello Jovial Water Engineering!\n\n`;
     message += `I would like to request an expert call back.\n\n`;
     message += `*Contact Details:*\n`;
     message += `👤 Name: ${formData.name}\n`;
